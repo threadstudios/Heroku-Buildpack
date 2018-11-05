@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ -f $1/.thr ]; then
+  echo "[THREAD] Detected thread app"
+  exit 0
+else
+  exit 1
+fi
